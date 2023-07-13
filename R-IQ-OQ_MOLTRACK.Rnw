@@ -254,7 +254,7 @@ This is consistent with the ``The R Installation and Administration Manual'' (th
 The Manual provides recommendations for the post-installation testing of R. The procedures for this
 testing are described in:
 
-\hspace{20pt}\url{http://cran.r-project.org/doc/manuals/R-admin.html#Testing-a-Unix_002dalike-Installation}
+\hspace{20pt}\url{http://cran.r-project.org/doc/manuals/R-admin.html#Testing-a-Unix\_002dalike-Installation}
 
 General guidance for the use of R in regulated clinical trials has been provided by the R Foundation
 in a document entitled:
@@ -400,7 +400,7 @@ if(class(pdf_test) == "character"){
 
 
 
-The following is the output of \texttt{'SVUHMolUtils::mod_test_db_con(INPUT)'} showing if the connection can be made
+The following is the output of \texttt{'SVUHMolUtils::mod\_test\_db\_con(INPUT)'} showing if the connection can be made
 
 <<results='asis',echo=FALSE>>=
 
