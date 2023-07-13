@@ -1,5 +1,6 @@
 options(echo = FALSE)
 options(useFancyQuotes = FALSE)
+Sys.setenv(LC_COLLATE = "C", LC_TIME="C", LANGUAGE = "en")
 Failure <- tools:::testInstalledPackages(outDir = 'IQ-OQ-TestOutput', scope = 'recommended', types = 'examples')
 if (Failure)
 {
